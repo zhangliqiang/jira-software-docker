@@ -6,4 +6,4 @@ RUN rm -f /opt/atlassian/jira/atlassian-jira/WEB-INF/lib/atlassian-extras-3.2.ja
 
 ADD jar/atlassian-extras-3.2.jar /opt/atlassian/jira/atlassian-jira/WEB-INF/lib
 
-ADD jar/mysql-connector-java-5.1.40.jar /opt/atlassian/confluence/confluence/WEB-INF/lib
+ADD jar/mysql-connector-java-5.1.40.jar /opt/atlassian/jira/atlassian-jira/WEB-INF/lib
